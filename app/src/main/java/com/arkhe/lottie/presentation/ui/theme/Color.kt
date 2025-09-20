@@ -1,4 +1,4 @@
-package com.arkhe.lottie.ui.theme
+package com.arkhe.lottie.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
