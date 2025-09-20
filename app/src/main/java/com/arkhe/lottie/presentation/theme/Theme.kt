@@ -1,4 +1,4 @@
-package com.arkhe.lottie.presentation.ui.theme
+package com.arkhe.lottie.presentation.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

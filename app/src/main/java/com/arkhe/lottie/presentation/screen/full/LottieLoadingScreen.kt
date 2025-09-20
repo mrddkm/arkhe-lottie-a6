@@ -1,4 +1,4 @@
-package com.arkhe.lottie.presentation.ui
+package com.arkhe.lottie.presentation.screen.full
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

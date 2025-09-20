@@ -12,9 +12,9 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.core.view.WindowCompat
-import com.arkhe.lottie.presentation.ui.LottieLoadingScreen
-import com.arkhe.lottie.presentation.ui.LottieLoadingSimple
-import com.arkhe.lottie.presentation.ui.theme.LottieLoadingTheme
+import com.arkhe.lottie.presentation.screen.full.LottieLoadingScreen
+import com.arkhe.lottie.presentation.screen.simple.LottieLoadingSimple
+import com.arkhe.lottie.presentation.theme.LottieLoadingTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
