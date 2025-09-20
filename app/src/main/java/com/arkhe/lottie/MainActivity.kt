@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.core.view.WindowCompat
 import com.arkhe.lottie.presentation.ui.LottieLoadingScreen
+import com.arkhe.lottie.presentation.ui.LottieLoadingSimple
 import com.arkhe.lottie.presentation.ui.theme.LottieLoadingTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,13 +30,14 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainContent()
+                    LottieLoadingSimple()
                 }
             }
         }
     }
 }
 
+@Suppress("unused")
 @Composable
 private fun MainContent() {
     Scaffold(
